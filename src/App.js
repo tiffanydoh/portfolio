@@ -8,10 +8,12 @@ import Home from './views/Home'
 import About from './views/About'
 import Projects from './views/Projects'
 import Contact from './views/Contact'
+import NavBar from './components/NavBar';
 
 const App = () => {
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
