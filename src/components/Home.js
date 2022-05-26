@@ -1,8 +1,7 @@
 import React from "react";
+import typingpic from "../assets/typing.jpeg";
 
 const Home = () => {
-  const titles = ["full stack developer", "illustrator", "introvert", "!robot"];
-
   return (
     <div name="home" className="w-full h-screen bg-[#88AED0]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
