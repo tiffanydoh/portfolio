@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Projects = () => {
   return (
-    <div>
+    <div name="projects" className="w-full h-screen bg-[#E9C46A]">
       <h1>Projects</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

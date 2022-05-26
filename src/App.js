@@ -1,27 +1,20 @@
-import React from 'react'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import Home from './views/Home'
-import About from './views/About'
-import Projects from './views/Projects'
-import Contact from './views/Contact'
-import NavBar from './components/NavBar';
+import React from "react";
+import Home from "./views/Home";
+import About from "./views/About";
+import Projects from "./views/Projects";
+import Contact from "./views/Contact";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/projects' element={<Projects />} />
-      </Routes>
-    </Router>
-  )
-}
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+    </div>
+  );
+};
 
-export default App
+export default App;
