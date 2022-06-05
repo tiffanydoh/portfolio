@@ -55,7 +55,7 @@ const About = () => {
 
               <div>
                 <a
-                  href="https://c531d473-88db-49bc-98ad-e8002210d97c.filesusr.com/ugd/b912f6_714ce08163844193892792b3af7ea684.pdf"
+                  href="https://c531d473-88db-49bc-98ad-e8002210d97c.filesusr.com/ugd/b912f6_5a47dda3607e4bb79c881f9e8f807ee7.pdf"
                   target="_blank"
                 >
                   <button class="bg-black hover:bg-sky-500 text-white py-2 px-4 rounded">
