@@ -10,7 +10,7 @@ import js from "../assets/js.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#88AED0]">
+    <div name="about" className="w-full h-auto bg-[#88AED0]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid gap-8">
           <div className="sm:text-center pb-8 pl-4">
@@ -58,7 +58,7 @@ const About = () => {
                   href="https://c531d473-88db-49bc-98ad-e8002210d97c.filesusr.com/ugd/b912f6_5a47dda3607e4bb79c881f9e8f807ee7.pdf"
                   target="_blank"
                 >
-                  <button class="bg-black hover:bg-sky-500 text-white py-2 px-4 rounded">
+                  <button class="bg-black hover:bg-sky-500 hover:scale-110 text-white py-2 px-4 rounded">
                     Download Resume
                   </button>
                 </a>
