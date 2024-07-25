@@ -8,7 +8,7 @@ const ProjectLayout = ({ text, string, stack, img }) => {
         <p className="text-[#F8F6F0] text-lg">{string}</p>
         <div className="text-[#F8F6F0] text-lg">{stack}</div>
         <div className="w-[50%]">
-          <img src={img} alt="project photo" />
+          <img src={img} alt="project website" />
         </div>
       </div>
     </div>
