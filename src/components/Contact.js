@@ -1,11 +1,11 @@
 import React from "react";
-// import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
-  // const [state, handleSubmit] = useForm("mlezvpza");
-  // if (state.succeeded) {
-  //   return <p>Thanks for joining!</p>;
-  // }
+  const [state, handleSubmit] = useForm("mlezvpza");
+  if (state.succeeded) {
+    return <p>Thanks for reaching out! I'll get back to you soon!</p>;
+  }
   return (
     <>
       <div
@@ -19,7 +19,7 @@ const Contact = () => {
         >
           <div className="pb-8">
             <p className="text-6xl font-extrabold inline text-[#F8F6F0]">
-              CONTACT ME
+              Contact Me
             </p>
             <p className="py-4 text-[#F8F6F0]">
               Please feel free to reach out with any questions, comments, and/or
@@ -45,7 +45,7 @@ const Contact = () => {
             name="message"
             rows="10"
             placeholder="Message"
-            minLength="50"
+            minLength="1"
             maxLength="1000"
             required
           ></textarea>

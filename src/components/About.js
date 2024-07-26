@@ -3,6 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div name="about">
+      <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
+        About
+      </h2>
       <div className="text-[#e5e5e5] text-xl p-8">
         <p className="mb-4">
           My name is Tiffany Do, and I'm dedicated to leveraging technology to
