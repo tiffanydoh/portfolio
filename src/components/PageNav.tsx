@@ -10,7 +10,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1.5rem",
+            fontSize: "1rem",
           }}
         >
           About
@@ -22,7 +22,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1.5rem",
+            fontSize: "1rem",
           }}
         >
           Experience
@@ -34,7 +34,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1.5rem",
+            fontSize: "1rem",
           }}
         >
           Projects
@@ -42,14 +42,14 @@ const PageNav = () => {
       </p>
       <p className="hover:text-[#f3c677]">
         <Link
-          to="contact-me"
+          to="contact"
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1.5rem",
+            fontSize: "1rem",
           }}
         >
-          Contact Me
+          Contact
         </Link>
       </p>
     </div>

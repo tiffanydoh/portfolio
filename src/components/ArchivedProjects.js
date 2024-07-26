@@ -115,13 +115,13 @@ const ArchivedProject = () => {
   return (
     <div name="archived-projects">
       <div clasName="p-8">
-        <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
+        <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
           Projects
         </h2>
         <div className="p-8">
           <DataTable
             value={projects_data}
-            className="text-[#e5e5e5] text-xl"
+            className="text-[#e5e5e5] text-md"
             tableStyle={{ maxWidth: "100rem" }}
           >
             <Column

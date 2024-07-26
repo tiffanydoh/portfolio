@@ -5,7 +5,7 @@ import github from "../assets/github-logo.jpeg";
 const SideNavBar = () => {
   return (
     <div>
-      <div className="flex fixed flex-col space-y-4 scale-[55%] top-[80%] left-0 bg-transparent text-white text-[27px] p-5">
+      <div className="flex fixed flex-col space-y-4 scale-[55%] top-[70%] left-0 bg-transparent text-white text-[27px] p-5">
         <a
           href="https://www.linkedin.com/in/tiffanydoh/"
           target="_blank"

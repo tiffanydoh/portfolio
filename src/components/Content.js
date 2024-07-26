@@ -6,11 +6,19 @@ import ArchivedProjects from "./ArchivedProjects.js";
 
 export default function Content() {
   return (
-    <div className="flex flex-col w-1/2 py-24">
-      <About />
-      <Experience />
-      <ArchivedProjects />
-      <Contact />
+    <div className="flex flex-col w-1/2">
+      <div className="pb-16">
+        <About />
+      </div>
+      <div className="pb-16">
+        <Experience />
+      </div>
+      <div className="pb-16">
+        <ArchivedProjects />
+      </div>
+      <div className="pb-16">
+        <Contact />
+      </div>
     </div>
   );
 }
