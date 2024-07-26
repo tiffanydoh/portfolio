@@ -10,15 +10,15 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="w-full h-screen flex justify-center text-center items-center p-4"
+        className="flex justify-center text-center items-center"
       >
         <form
           method="POST"
           action="https://formspree.io/f/mlezvpza"
-          className="flex flex-col max-w-[600px] w-full"
+          className="flex flex-col"
         >
           <div className="pb-8">
-            <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
+            <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
               Contact
             </h2>
             <p className="py-4 text-[#F8F6F0]">
