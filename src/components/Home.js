@@ -1,12 +1,17 @@
 import React from "react";
-import typingpic from "../assets/typing.jpeg";
+import PageNav from "./PageNav.tsx";
+import SideNav from "./SideNavBar.js";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#88AED0]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <h1 className="font-bold text-[#F8F6F0] text-8xl">Tiffany Do</h1>
-      </div>
+    <div
+      name="home"
+      className="flex flex-col text-white w-1/2 max-h-screen justify-center items-center sticky top-0"
+    >
+      <h1 className="font-bold text-7xl text-[#e5e5e5]">Tiffany Do</h1>
+      <h2 className="text-4xl text-[#e5e5e5]">Full Stack Engineer</h2>
+      <PageNav />
+      <SideNav />
     </div>
   );
 };
