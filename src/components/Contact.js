@@ -18,9 +18,9 @@ const Contact = () => {
           className="flex flex-col max-w-[600px] w-full"
         >
           <div className="pb-8">
-            <p className="text-6xl font-extrabold inline text-[#F8F6F0]">
-              Contact Me
-            </p>
+            <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
+              Contact
+            </h2>
             <p className="py-4 text-[#F8F6F0]">
               Please feel free to reach out with any questions, comments, and/or
               other inquiries!

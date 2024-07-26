@@ -114,36 +114,38 @@ const ArchivedProject = () => {
   ];
   return (
     <div name="archived-projects">
-      <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
-        Projects
-      </h2>
-      <div className="p-8">
-        <DataTable
-          value={projects_data}
-          className="text-[#e5e5e5] text-xl"
-          tableStyle={{ maxWidth: "100rem" }}
-        >
-          <Column
-            className="text-left px-4 py-2"
-            field="year"
-            header="Year"
-          ></Column>
-          <Column
-            className="text-left px-4 py-2"
-            field="project_name"
-            header="Project"
-          ></Column>
-          <Column
-            className="text-left px-4 py-2"
-            field="built_with"
-            header="Built With"
-          ></Column>
-          <Column
-            className="text-left px-4 py-2"
-            field="link"
-            header="Link"
-          ></Column>
-        </DataTable>
+      <div clasName="p-8">
+        <h2 className="flex justify-center font-semibold text-5xl text-[#e5e5e5]">
+          Projects
+        </h2>
+        <div className="p-8">
+          <DataTable
+            value={projects_data}
+            className="text-[#e5e5e5] text-xl"
+            tableStyle={{ maxWidth: "100rem" }}
+          >
+            <Column
+              className="text-left px-4 py-2"
+              field="year"
+              header="Year"
+            ></Column>
+            <Column
+              className="text-left px-4 py-2"
+              field="project_name"
+              header="Project"
+            ></Column>
+            <Column
+              className="text-left px-4 py-2"
+              field="built_with"
+              header="Built With"
+            ></Column>
+            <Column
+              className="text-left px-4 py-2"
+              field="link"
+              header="Link"
+            ></Column>
+          </DataTable>
+        </div>
       </div>
     </div>
   );
