@@ -10,7 +10,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1rem",
+            fontSize: "2rem",
           }}
         >
           About
@@ -22,7 +22,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1rem",
+            fontSize: "2rem",
           }}
         >
           Experience
@@ -34,7 +34,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1rem",
+            fontSize: "2rem",
           }}
         >
           Projects
@@ -46,7 +46,7 @@ const PageNav = () => {
           smooth={true}
           duration={500}
           style={{
-            fontSize: "1rem",
+            fontSize: "2rem",
           }}
         >
           Contact

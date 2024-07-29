@@ -6,6 +6,70 @@ import StackButton from "./StackButton";
 const ArchivedProject = () => {
   const projects_data = [
     {
+      year: 2024,
+      project_name: "Portfolio v2",
+      built_with: (
+        <>
+          <StackButton text={"JavaScript"} />
+          <StackButton text={"React"} />
+          <StackButton text={"Tailwind CSS"} />
+        </>
+      ),
+      link: (
+        <a
+          href="https://github.com/tiffanydoh/portfolio"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-[#f3c677]"
+        >
+          Github
+        </a>
+      ),
+    },
+    {
+      year: "2022 - 2024",
+      project_name: "Solstice Platform",
+      built_with: (
+        <>
+          <StackButton text="JavaScript" />
+          <StackButton text="TypeScript" />
+          <StackButton text="React" />
+          <StackButton text="Express.js" />
+          <StackButton text="Next.js" />
+          <StackButton text="CSS/SCSS" />
+          <StackButton text="Tailwind CSS" />
+          <StackButton text="Cypress" />
+          <StackButton text="Jest" />
+          <StackButton text="Docker" />
+          <StackButton text="PostgreSQL" />
+          <StackButton text="SQL" />
+        </>
+      ),
+    },
+    {
+      year: "2022 - 2024",
+      project_name: "EnergyScore",
+      built_with: (
+        <>
+          <StackButton text="JavaScript" />
+          <StackButton text="TypeScript" />
+          <StackButton text="React" />
+          <StackButton text="Express.js" />
+          <StackButton text="Next.js" />
+          <StackButton text="CSS/SCSS" />
+          <StackButton text="Tailwind CSS" />
+          <StackButton text="Cypress" />
+          <StackButton text="Jest" />
+          <StackButton text="Storybook" />
+          <StackButton text="TSOA" />
+          <StackButton text="Docker" />
+          <StackButton text="TypeORM" />
+          <StackButton text="PostgreSQL" />
+          <StackButton text="SQL" />
+        </>
+      ),
+    },
+    {
       year: 2022,
       project_name: "FruityCounter",
       built_with: (
@@ -13,7 +77,7 @@ const ArchivedProject = () => {
           <StackButton text={"Redux"} />
           <StackButton text={"React"} />
           <StackButton text={"React Hooks"} />
-          <StackButton text={"Tailwind"} />
+          <StackButton text={"Tailwind CSS"} />
         </>
       ),
       link: (
@@ -115,7 +179,7 @@ const ArchivedProject = () => {
   return (
     <div name="archived-projects">
       <div clasName="p-8">
-        <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
+        <h2 className="flex justify-center font-semibold text-2xl text-[#e5e5e5]">
           Projects
         </h2>
         <div className="p-8">
