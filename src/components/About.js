@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div name="about">
-      <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
+      <h2 className="flex justify-center font-semibold text-2xl text-[#e5e5e5]">
         About
       </h2>
       <div className="text-[#e5e5e5]">

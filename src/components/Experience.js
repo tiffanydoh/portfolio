@@ -6,7 +6,7 @@ import resume from "../assets/Tiffany_Do_Resume_Software_Engineer.pdf";
 const Experience = () => {
   return (
     <div name="experience">
-      <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
+      <h2 className="flex justify-center font-semibold text-2xl text-[#e5e5e5]">
         Experiences
       </h2>
 
@@ -26,6 +26,11 @@ const Experience = () => {
               <StackButton text="Next.js" />
               <StackButton text="CSS/SCSS" />
               <StackButton text="Tailwind CSS" />
+              <StackButton text="Cypress" />
+              <StackButton text="Jest" />
+              <StackButton text="PostgreSQL" />
+              <StackButton text="SQL" />
+              <StackButton text="Storybook" />
             </>
           }
         />
@@ -45,6 +50,11 @@ const Experience = () => {
               <StackButton text="CSS/SCSS" />
               <StackButton text="Tailwind CSS" />
               <StackButton text="HTML" />
+              <StackButton text="Cypress" />
+              <StackButton text="Jest" />
+              <StackButton text="PostgreSQL" />
+              <StackButton text="SQL" />
+              <StackButton text="Storybook" />
             </>
           }
         />

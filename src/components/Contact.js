@@ -18,7 +18,7 @@ const Contact = () => {
           className="flex flex-col"
         >
           <div className="pb-8">
-            <h2 className="flex justify-center font-semibold text-xl text-[#e5e5e5]">
+            <h2 className="flex justify-center font-semibold text-2xl text-[#e5e5e5]">
               Contact
             </h2>
             <p className="py-4 text-[#F8F6F0]">
