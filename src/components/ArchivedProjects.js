@@ -15,6 +15,16 @@ const ArchivedProject = () => {
           <StackButton text={"Tailwind CSS"} />
         </>
       ),
+      link: (
+        <a
+          href="https://github.com/tiffanydoh/portfolio"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-[#f3c677]"
+        >
+          Github
+        </a>
+      ),
     },
     {
       year: "2022 - 2024",
