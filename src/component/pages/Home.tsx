@@ -1,6 +1,6 @@
 import React from "react";
-import selfie from "./images/selfie.jpg";
-import WindowTemplate from "./component/WindowTemplate.tsx";
+import selfie from "../../images/selfie.jpg";
+import WindowTemplate from "../WindowTemplate.tsx";
 
 export default function Home() {
   return (
