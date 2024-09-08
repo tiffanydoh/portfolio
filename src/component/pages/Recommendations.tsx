@@ -79,7 +79,6 @@ export default function Recommendations() {
       Any organization would be lucky to have Tiffany on board— not only will she be a fantastic teammate, she'll also be a joy to collaborate with!`,
     },
   ];
-  console.log(recommendations);
 
   const template = (recommendation) => {
     return (
