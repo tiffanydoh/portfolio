@@ -1,6 +1,9 @@
 import React from "react";
 import WindowTemplate from "../WindowTemplate.tsx";
 import ExperienceBox from "../ExperienceBox.tsx";
+import { Fieldset } from "primereact/fieldset";
+import { Chip } from "primereact/chip";
+import resume from "../../assets/documents/Tiffany_Do_Resume_Software_Engineer.pdf";
 
 export default function Experiences() {
   const experiences = [
@@ -96,7 +99,7 @@ export default function Experiences() {
   ];
   return (
     <div id="experiences">
-      <WindowTemplate id="experiences" tabName="Experiences">
+      <WindowTemplate tabName="Experiences">
         <div className="grid gap-4 items-center">
           {experiences.map((experience) => (
             <ExperienceBox
@@ -106,6 +109,95 @@ export default function Experiences() {
               content={experience.content}
             />
           ))}
+          <hr className="my-4 border-t-2 border-black" />
+
+          <Fieldset legend="Languages" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"Ruby"} />
+              <Chip className="bg-blue-100 m-1" label={"Javascript"} />
+              <Chip className="bg-blue-100 m-1" label={"Typescript"} />
+              <Chip className="bg-blue-100 m-1" label={"SQL"} />
+              <Chip className="bg-blue-100 m-1" label={"CSS/SCSS"} />
+              <Chip className="bg-blue-100 m-1" label={"Tailwind"} />
+              <Chip className="bg-blue-100 m-1" label={"HTML"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Frameworks/Libraries/Other" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"React.js"} />
+              <Chip className="bg-blue-100 m-1" label={"Express.js"} />
+              <Chip className="bg-blue-100 m-1" label={"Next.js"} />
+              <Chip className="bg-blue-100 m-1" label={"Redux"} />
+              <Chip className="bg-blue-100 m-1" label={"Prime React"} />
+              <Chip className="bg-blue-100 m-1" label={"Ruby on Rails"} />
+              <Chip className="bg-blue-100 m-1" label={"Node.js"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Tools/Technologies" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"Storybook"} />
+              <Chip className="bg-blue-100 m-1" label={"Docker"} />
+              <Chip className="bg-blue-100 m-1" label={"TSOA"} />
+              <Chip className="bg-blue-100 m-1" label={"TypeORM"} />
+              <Chip
+                className="bg-blue-100 m-1"
+                label={"React Query/ TanStack Query"}
+              />
+              <Chip className="bg-blue-100 m-1" label={"Knex.js"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Testing" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"Jest"} />
+              <Chip
+                className="bg-blue-100 m-1"
+                label={"React Testing Library"}
+              />
+              <Chip className="bg-blue-100 m-1" label={"Cypress"} />
+              <Chip className="bg-blue-100 m-1" label={"RSPEC"} />
+              <Chip className="bg-blue-100 m-1" label={"Enzyme"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Version Control" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"Git"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Data Analysis/Databases" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"STATA"} />
+              <Chip className="bg-blue-100 m-1" label={"PostgreSQL"} />
+            </p>
+          </Fieldset>
+
+          <Fieldset legend="Soft Skills" toggleable>
+            <p className="m-0">
+              <Chip className="bg-blue-100 m-1" label={"Problem-Solving"} />
+              <Chip className="bg-blue-100 m-1" label={"Communication"} />
+              <Chip className="bg-blue-100 m-1" label={"Critical Thinking"} />
+              <Chip className="bg-blue-100 m-1" label={"Adaptability"} />
+              <Chip className="bg-blue-100 m-1" label={"Collaboration"} />
+              <Chip
+                className="bg-blue-100 m-1"
+                label={"Emotional Intelligence"}
+              />
+              <Chip className="bg-blue-100 m-1" label={"Self-Motivation"} />
+            </p>
+          </Fieldset>
+
+          <div className="flex justify-center">
+            <a
+              href={resume}
+              className="text-black bg-[#F8F6F0] hover:text-black hover:bg-sky-500 px-4 py-3 my-8 mx-auto flex items-center border-2 border-black"
+            >
+              Download Full Resume
+            </a>
+          </div>
         </div>
       </WindowTemplate>
     </div>

@@ -7,7 +7,7 @@ import ArchivedProjects from "../ArchivedProjects.tsx";
 export default function Recommendations() {
   return (
     <div id="projects">
-      <WindowTemplate id="projects" tabName="Projects">
+      <WindowTemplate tabName="Projects">
         <TabView>
           <TabPanel header="Most Recent">
             <p className="m-0">
