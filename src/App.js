@@ -2,19 +2,27 @@ import Home from "./component/pages/Home.tsx";
 import Recommendations from "./component/pages/Recommendations.tsx";
 import Experiences from "./component/pages/Experiences.tsx";
 import Projects from "./component/pages/Projects.tsx";
+import Contact from "./component/pages/Contact.tsx";
 import "primeicons/primeicons.css";
-import tiffanyGIF from "./images/tiffanyGIF.gif";
+import tiffanyGIF from "./assets/images/general/tiffanyGIF.gif";
+import NavBar from "./component/NavBar.tsx";
 
 function App() {
   return (
-    <div className="bg-blue-100">
+    <div className="bg-[#fefae0]">
       <div className="flex justify-center">
         <img src={tiffanyGIF} alt="Tiffany Do gif" />
       </div>
-      <Home />;
-      <Experiences />;
-      <Projects />;
-      <Recommendations />;
+      <div className="flex justify-center">
+        <NavBar />
+        <div>
+          <Home />
+          <Experiences />
+          <Projects />
+          <Recommendations />
+          <Contact />
+        </div>
+      </div>
     </div>
   );
 }

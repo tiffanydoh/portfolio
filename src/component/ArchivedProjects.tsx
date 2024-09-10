@@ -12,14 +12,14 @@ export default function ArchivedProjects() {
         "Is shuffling through the same 10 songs starting to become a buzzkill? With StarTunes, you can discover new music by shuffling through our random song generator to spice up your life. Create new songs, update/delete songs, and sign in/sign up/sign out.",
       built_with: (
         <>
-          <Chip label={"CSS"} />
-          <Chip label={"Javascript"} />
-          <Chip label={"HTML"} />
-          <Chip label={"React"} />
-          <Chip label={"Ruby on Rails"} />
-          <Chip label={"React in Rails"} />
-          <Chip label={"Jest"} />
-          <Chip label={"RSpec"} />
+          <Chip className="bg-blue-100 m-1" label={"CSS"} />
+          <Chip className="bg-blue-100 m-1" label={"Javascript"} />
+          <Chip className="bg-blue-100 m-1" label={"HTML"} />
+          <Chip className="bg-blue-100 m-1" label={"React"} />
+          <Chip className="bg-blue-100 m-1" label={"Ruby on Rails"} />
+          <Chip className="bg-blue-100 m-1" label={"React in Rails"} />
+          <Chip className="bg-blue-100 m-1" label={"Jest"} />
+          <Chip className="bg-blue-100 m-1" label={"RSpec"} />
         </>
       ),
       link: (
@@ -40,13 +40,13 @@ export default function ArchivedProjects() {
         "barkbuds is your friendly neighborhood app where your dog can meet another dog. The perfect website for you to find your dog a buddy. Use the swipe features to swipe right on your favorite dogs, swipe left on other dogs. Use the comment section to leave your thoughts.",
       built_with: (
         <>
-          <Chip label={"CSS"} />
-          <Chip label={"Javascript"} />
-          <Chip label={"HTML"} />
-          <Chip label={"React"} />
-          <Chip label={"Ruby on Rails"} />
-          <Chip label={"Jest"} />
-          <Chip label={"RSpec"} />
+          <Chip className="bg-blue-100 m-1" label={"CSS"} />
+          <Chip className="bg-blue-100 m-1" label={"Javascript"} />
+          <Chip className="bg-blue-100 m-1" label={"HTML"} />
+          <Chip className="bg-blue-100 m-1" label={"React"} />
+          <Chip className="bg-blue-100 m-1" label={"Ruby on Rails"} />
+          <Chip className="bg-blue-100 m-1" label={"Jest"} />
+          <Chip className="bg-blue-100 m-1" label={"RSpec"} />
         </>
       ),
       link: (
@@ -77,8 +77,8 @@ export default function ArchivedProjects() {
         "The Forest Service is considering a proposal to place in conservancy a forest of virgin Douglas fir just outside of Portland, Oregon. Before they give the go-ahead, they need to do an environmental impact study. I've built an API the rangers can use to report wildlife sightings.",
       built_with: (
         <>
-          <Chip label={"Ruby"} />
-          <Chip label={"Ruby on Rails"} />
+          <Chip className="bg-blue-100 m-1" label={"Ruby"} />
+          <Chip className="bg-blue-100 m-1"  label={"Ruby on Rails"} />
         </>
       ),
       link: (
