@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3027e37d.css",
+    "main.js": "/portfolio/static/js/main.db5edbc9.js",
+    "static/js/453.a8b49705.chunk.js": "/portfolio/static/js/453.a8b49705.chunk.js",
+    "static/media/selfie.jpg": "/portfolio/static/media/selfie.edafbe1810d48d8bde3e.jpg",
+    "static/media/contact.png": "/portfolio/static/media/contact.58bae3d5ac8fa2c11e04.png",
+    "static/media/sp4.png": "/portfolio/static/media/sp4.4f9eacc8c32bd300a214.png",
+    "static/media/primeicons.svg": "/portfolio/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/es2.png": "/portfolio/static/media/es2.e54c5abdb26d57ada864.png",
+    "static/media/folder-icon.png": "/portfolio/static/media/folder-icon.39e3ffe65418dd9babde.png",
+    "static/media/es4.png": "/portfolio/static/media/es4.3baf580d9146669d9ceb.png",
+    "static/media/sp8.png": "/portfolio/static/media/sp8.9172f94563b4d0221d27.png",
+    "static/media/home.png": "/portfolio/static/media/home.695759bb803a0bd2b3ad.png",
+    "static/media/actions-component.jpg": "/portfolio/static/media/actions-component.e02adb8a026cbf11092d.jpg",
+    "static/media/es1.png": "/portfolio/static/media/es1.d071f9f91db93fa1d8ff.png",
+    "static/media/es3.png": "/portfolio/static/media/es3.066f1cf739236e32870e.png",
+    "static/media/sp5.png": "/portfolio/static/media/sp5.aa490ff26bf2b54a6dab.png",
+    "static/media/recommendations.png": "/portfolio/static/media/recommendations.08f7872451b9297e81c8.png",
+    "static/media/Tiffany_Do_Resume_Software_Engineer.pdf": "/portfolio/static/media/Tiffany_Do_Resume_Software_Engineer.a38ae0a037eab787a3e7.pdf",
+    "static/media/sp6.png": "/portfolio/static/media/sp6.5944d00b20179b51310b.png",
+    "static/media/bulk-qc-modal-2.jpg": "/portfolio/static/media/bulk-qc-modal-2.2be98e15db1acc3a3bab.jpg",
+    "static/media/es7.png": "/portfolio/static/media/es7.5a3434876c6c4b5095a4.png",
+    "static/media/bulk-qc-modal-1.jpg": "/portfolio/static/media/bulk-qc-modal-1.9f11c7e1ec83caeafd01.jpg",
+    "static/media/es5.png": "/portfolio/static/media/es5.ee74c3b012569a36e81e.png",
+    "static/media/primeicons.eot": "/portfolio/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/portfolio/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/portfolio/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/computer.png": "/portfolio/static/media/computer.b82c044459d72a1793ca.png",
+    "static/media/es6.png": "/portfolio/static/media/es6.dedb1480d64b1482e2c0.png",
+    "static/media/sp7.png": "/portfolio/static/media/sp7.34b781c625bc22db2969.png",
+    "static/media/tiffanyGIF.gif": "/portfolio/static/media/tiffanyGIF.b4d44c760240c5de6527.gif",
+    "static/media/primeicons.woff2": "/portfolio/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.3027e37d.css.map": "/portfolio/static/css/main.3027e37d.css.map",
+    "main.db5edbc9.js.map": "/portfolio/static/js/main.db5edbc9.js.map",
+    "453.a8b49705.chunk.js.map": "/portfolio/static/js/453.a8b49705.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3027e37d.css",
+    "static/js/main.db5edbc9.js"
+  ]
+}
