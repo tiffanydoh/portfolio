@@ -95,17 +95,19 @@ export default function Experiences() {
     },
   ];
   return (
-    <WindowTemplate>
-      <div className="grid gap-4 items-center">
-        {experiences.map((experience) => (
-          <ExperienceBox
-            position={experience.position}
-            company={experience.company}
-            duration={experience.duration}
-            content={experience.content}
-          />
-        ))}
-      </div>
-    </WindowTemplate>
+    <div id="experiences">
+      <WindowTemplate id="experiences" tabName="Experiences">
+        <div className="grid gap-4 items-center">
+          {experiences.map((experience) => (
+            <ExperienceBox
+              position={experience.position}
+              company={experience.company}
+              duration={experience.duration}
+              content={experience.content}
+            />
+          ))}
+        </div>
+      </WindowTemplate>
+    </div>
   );
 }

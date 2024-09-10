@@ -6,8 +6,8 @@ import ArchivedProjects from "../ArchivedProjects.tsx";
 
 export default function Recommendations() {
   return (
-    <WindowTemplate>
-      <div>
+    <div id="projects">
+      <WindowTemplate id="projects" tabName="Projects">
         <TabView>
           <TabPanel header="Most Recent">
             <p className="m-0">
@@ -20,7 +20,7 @@ export default function Recommendations() {
             </p>
           </TabPanel>
         </TabView>
-      </div>
-    </WindowTemplate>
+      </WindowTemplate>
+    </div>
   );
 }
