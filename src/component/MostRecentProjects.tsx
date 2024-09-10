@@ -4,9 +4,21 @@ import { Column } from "primereact/column";
 import { Chip } from "primereact/chip";
 import { Button } from "primereact/button";
 import ProjectModal from "./ProjectModal.tsx";
-import actionscomponent from "../images/solstice-platform/actions-component.jpg";
-import bulkqc1 from "../images/solstice-platform/bulk-qc-modal-1.jpg";
-import bulkqc2 from "../images/solstice-platform/bulk-qc-modal-2.jpg";
+import actionscomponent from "../assets/images/solstice-platform/actions-component.jpg";
+import bulkqc1 from "../assets/images/solstice-platform/bulk-qc-modal-1.jpg";
+import bulkqc2 from "../assets/images/solstice-platform/bulk-qc-modal-2.jpg";
+import sp4 from "../assets/images/solstice-platform/sp4.png";
+import sp5 from "../assets/images/solstice-platform/sp5.png";
+import sp6 from "../assets/images/solstice-platform/sp6.png";
+import sp7 from "../assets/images/solstice-platform/sp7.png";
+import sp8 from "../assets/images/solstice-platform/sp8.png";
+import es1 from "../assets/images/energyscore/es1.png";
+import es2 from "../assets/images/energyscore/es2.png";
+import es3 from "../assets/images/energyscore/es3.png";
+import es4 from "../assets/images/energyscore/es4.png";
+import es5 from "../assets/images/energyscore/es5.png";
+import es6 from "../assets/images/energyscore/es6.png";
+import es7 from "../assets/images/energyscore/es7.png";
 
 export default function MostRecentProjects() {
   const [openSolsticeProjectModal, setOpenSolsticeProjectModal] =
@@ -126,8 +138,7 @@ export default function MostRecentProjects() {
         visible={openSolsticeProjectModal}
         onHide={() => setOpenSolsticeProjectModal(false)}
       >
-        <div>
-          <p>Action Component/Example of Bulk Action</p>
+        <div className="grid gap-4">
           <img
             src={actionscomponent}
             width="400"
@@ -139,6 +150,16 @@ export default function MostRecentProjects() {
 
           <img src={bulkqc2} width="400" height="300" alt="bulk qc modal 2" />
 
+          <img src={sp4} width="400" height="300" alt="solstice work" />
+
+          <img src={sp5} width="400" height="300" alt="solstice work" />
+
+          <img src={sp6} width="400" height="300" alt="solstice work" />
+
+          <img src={sp7} width="400" height="300" alt="solstice work" />
+
+          <img src={sp8} width="400" height="300" alt="solstice work" />
+
           <p>More Coming Soon!</p>
         </div>
       </ProjectModal>
@@ -147,7 +168,15 @@ export default function MostRecentProjects() {
         visible={openESProjectModal}
         onHide={() => setOpenESProjectModal(false)}
       >
-        <div>Pictures Coming Soon!</div>
+        <div className="grid gap-4">
+          <img src={es1} width="400" height="300" alt="energyscore work" />
+          <img src={es2} width="400" height="300" alt="energyscore work" />
+          <img src={es3} width="400" height="300" alt="energyscore work" />
+          <img src={es4} width="400" height="300" alt="energyscore work" />
+          <img src={es5} width="400" height="300" alt="energyscore work" />
+          <img src={es6} width="400" height="300" alt="energyscore work" />
+          <img src={es7} width="400" height="300" alt="energyscore work" />
+        </div>
       </ProjectModal>
     </>
   );

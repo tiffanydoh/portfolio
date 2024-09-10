@@ -92,16 +92,17 @@ export default function Recommendations() {
   };
 
   return (
-    <WindowTemplate>
-      <Carousel
-        className="w-full"
-        value={recommendations}
-        numVisible={1}
-        numScroll={1}
-        itemTemplate={template}
-        circular
-        autoplayInterval={8000}
-      />
-    </WindowTemplate>
+    <div id="recommendations">
+      <WindowTemplate id="recommendations" tabName="Recommendation">
+        <Carousel
+          value={recommendations}
+          numVisible={1}
+          numScroll={1}
+          itemTemplate={template}
+          circular
+          autoplayInterval={8000}
+        />
+      </WindowTemplate>
+    </div>
   );
 }
