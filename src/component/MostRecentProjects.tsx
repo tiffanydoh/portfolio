@@ -48,22 +48,22 @@ export default function MostRecentProjects() {
       ),
       built_with: (
         <>
-          <Chip label="JavaScript" />
-          <Chip label="TypeScript" />
-          <Chip label="React" />
-          <Chip label="Express.js" />
-          <Chip label="Next.js" />
-          <Chip label="CSS/SCSS" />
-          <Chip label="Tailwind CSS" />
-          <Chip label="Cypress" />
-          <Chip label="Jest" />
-          <Chip label="Docker" />
-          <Chip label="PostgreSQL" />
-          <Chip label="SQL" />
+          <Chip className="bg-blue-100 m-1" label="JavaScript" />
+          <Chip className="bg-blue-100 m-1" label="TypeScript" />
+          <Chip className="bg-blue-100 m-1" label="React" />
+          <Chip className="bg-blue-100 m-1" label="Express.js" />
+          <Chip className="bg-blue-100 m-1" label="Next.js" />
+          <Chip className="bg-blue-100 m-1" label="CSS/SCSS" />
+          <Chip className="bg-blue-100 m-1" label="Tailwind CSS" />
+          <Chip className="bg-blue-100 m-1" label="Cypress" />
+          <Chip className="bg-blue-100 m-1" label="Jest" />
+          <Chip className="bg-blue-100 m-1" label="Docker" />
+          <Chip className="bg-blue-100 m-1" label="PostgreSQL" />
+          <Chip className="bg-blue-100 m-1" label="SQL" />
         </>
       ),
       link: (
-        <div>
+        <div className="hover:text-[#f3c677]">
           <Button onClick={() => setOpenSolsticeProjectModal(true)}>
             <i className="pi pi-images" />
           </Button>
@@ -81,25 +81,25 @@ export default function MostRecentProjects() {
       ),
       built_with: (
         <>
-          <Chip label="JavaScript" />
-          <Chip label="TypeScript" />
-          <Chip label="React" />
-          <Chip label="Express.js" />
-          <Chip label="Next.js" />
-          <Chip label="CSS/SCSS" />
-          <Chip label="Tailwind CSS" />
-          <Chip label="Cypress" />
-          <Chip label="Jest" />
-          <Chip label="Storybook" />
-          <Chip label="TSOA" />
-          <Chip label="Docker" />
-          <Chip label="TypeORM" />
-          <Chip label="PostgreSQL" />
-          <Chip label="SQL" />
+          <Chip className="bg-blue-100 m-1" label="JavaScript" />
+          <Chip className="bg-blue-100 m-1" label="TypeScript" />
+          <Chip className="bg-blue-100 m-1" label="React" />
+          <Chip className="bg-blue-100 m-1" label="Express.js" />
+          <Chip className="bg-blue-100 m-1" label="Next.js" />
+          <Chip className="bg-blue-100 m-1" label="CSS/SCSS" />
+          <Chip className="bg-blue-100 m-1" label="Tailwind CSS" />
+          <Chip className="bg-blue-100 m-1" label="Cypress" />
+          <Chip className="bg-blue-100 m-1" label="Jest" />
+          <Chip className="bg-blue-100 m-1" label="Storybook" />
+          <Chip className="bg-blue-100 m-1" label="TSOA" />
+          <Chip className="bg-blue-100 m-1" label="Docker" />
+          <Chip className="bg-blue-100 m-1" label="TypeORM" />
+          <Chip className="bg-blue-100 m-1" label="PostgreSQL" />
+          <Chip className="bg-blue-100 m-1" label="SQL" />
         </>
       ),
       link: (
-        <div>
+        <div className="hover:text-[#f3c677]">
           <Button onClick={() => setOpenESProjectModal(true)}>
             <i className="pi pi-images" />
           </Button>

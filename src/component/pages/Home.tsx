@@ -5,7 +5,7 @@ import WindowTemplate from "../WindowTemplate.tsx";
 export default function Home() {
   return (
     <div id="home">
-      <WindowTemplate id="home" tabName="Welcome to Portfolio">
+      <WindowTemplate tabName="Welcome to Portfolio">
         <div className="grid grid-cols-2 gap-4">
           <div>
             <img

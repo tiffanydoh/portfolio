@@ -1,7 +1,7 @@
 import React from "react";
 import WindowTab from "./WindowTab.tsx";
 
-export default function WindowTemplate({ id, tabName, children }) {
+export default function WindowTemplate({ tabName, children }) {
   return (
     <div className="flex items-center justify-center pb-4">
       <div className="relative border-4 border-black max-w-5xl w-full max-h-screen rounded-lg shadow-xl shadow-gray-600 overflow-scroll bg-[#faedcd]">

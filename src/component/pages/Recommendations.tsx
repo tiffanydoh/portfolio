@@ -93,7 +93,7 @@ export default function Recommendations() {
 
   return (
     <div id="recommendations">
-      <WindowTemplate id="recommendations" tabName="Recommendation">
+      <WindowTemplate tabName="Recommendation">
         <Carousel
           value={recommendations}
           numVisible={1}
